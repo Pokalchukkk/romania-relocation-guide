@@ -1,0 +1,64 @@
+# Project Overview
+
+## Project Name
+**Romania Relocation Assistant** - Comprehensive guide for Ukrainian citizens relocating to Romania
+
+## Project Goals
+- **Primary**: Provide accurate, up-to-date information about relocating to Romania
+- **Secondary**: Assist with tax system understanding and compliance
+- **Tertiary**: Support integration and daily life in Romania
+
+## Target Audience
+- **Primary**: Ukrainian citizens planning to relocate to Romania
+- **Secondary**: Ukrainian citizens already in Romania needing assistance
+- **Tertiary**: Anyone interested in Romanian immigration and tax system
+
+## Project Scope
+### Included
+- **Immigration**: VNЖ/ПМЖ procedures, temporary protection
+- **Taxes**: Income tax, social contributions, VAT, business registration
+- **Life**: Housing, banking, healthcare, education, integration
+- **Legal**: Residency requirements, work permits, business setup
+
+### Excluded
+- **Legal advice**: Information only, not legal counsel
+- **Personal data**: No collection or storage of personal information
+- **Financial advice**: Tax information only, not investment advice
+- **Medical advice**: Healthcare system information only
+
+## Project Structure
+```
+PersonalAgent/
+├── .cursor/rules/          # AI assistant rules and guidelines
+├── romanian-move-and-tax.md # Main comprehensive guide
+├── ai-assistant-rules.md   # Basic AI rules
+└── README.md              # Project overview and navigation
+```
+
+## Content Principles
+- **Accuracy**: All information verified with official sources
+- **Currency**: Regular updates to reflect legislative changes
+- **Clarity**: Clear, simple language for easy understanding
+- **Completeness**: Comprehensive coverage of all relevant topics
+
+## Maintenance Schedule
+- **Weekly**: Check for legislative updates
+- **Monthly**: Verify all links and sources
+- **Quarterly**: Comprehensive content review
+- **As needed**: Updates based on user feedback
+
+## Success Metrics
+- **Accuracy**: Zero outdated information
+- **Completeness**: All major topics covered
+- **Usability**: Clear navigation and structure
+- **Helpfulness**: Positive user feedback
+
+## Future Enhancements
+- **Interactive tools**: Calculators and checklists
+- **Community**: User forums and Q&A
+- **Localization**: Additional language support
+- **Mobile**: Mobile-optimized interface
+
+---
+*Last updated: 2025-01-02*
+*Project overview and scope definition*

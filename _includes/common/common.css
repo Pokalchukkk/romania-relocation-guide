@@ -1,0 +1,55 @@
+/* Common styles for multilingual site */
+
+.language-switcher {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.language-switcher a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.language-switcher a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.language-switcher a.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.container-lg.px-3.my-5.markdown-body h1:first-of-type {
+    display: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .language-switcher a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Language-specific styles */
+.lang-ua {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lang-en {
+    font-family: 'Arial', sans-serif;
+}
+
+.lang-ro {
+    font-family: 'Times New Roman', serif;
+}

@@ -1,0 +1,59 @@
+# Jekyll Configuration for Multilingual Site
+
+# Site settings
+title: "Romania Relocation Guide"
+description: "Complete guide for relocating to Romania - immigration, taxes, and daily life"
+baseurl: "" # leave empty if deploying to root domain
+url: "https://your-username.github.io" # replace with your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  common:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      last_modified: "2025-01-02"
+
+# Language settings
+languages: ["ua", "ru"]
+default_lang: "ua"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - .cursor/
+
+# Include files
+include:
+  - _includes/common/
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false

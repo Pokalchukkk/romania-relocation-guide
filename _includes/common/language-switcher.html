@@ -1,0 +1,12 @@
+<!-- Language Switcher Component -->
+<div class="language-switcher">
+    {% assign current_lang = page.lang | default: 'ua' %}
+    
+    {% if current_lang == 'ua' %}
+        <a href="{{ site.baseurl }}/ua/" class="active">UA</a>
+        <a href="{{ site.baseurl }}/ru/" class="{% if current_lang == 'ru' %}active{% endif %}">RU</a>
+    {% elsif current_lang == 'ru' %}
+        <a href="{{ site.baseurl }}/ua/" class="{% if current_lang == 'ua' %}active{% endif %}">UA</a>
+        <a href="{{ site.baseurl }}/ru/" class="active">RU</a>
+    {% endif %}
+</div>

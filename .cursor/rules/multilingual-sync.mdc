@@ -1,0 +1,46 @@
+# Multilingual Sync Rules
+
+## Language Management
+- **Primary language**: Ukrainian for all user-facing content
+- **Secondary languages**: Romanian for official documents and forms
+- **English**: For technical documentation and international references
+
+## Translation Standards
+- **Consistency**: Use consistent terminology across all languages
+- **Context**: Maintain cultural and legal context for each language
+- **Accuracy**: Verify translations with official sources
+- **Updates**: Keep all language versions synchronized
+
+## File Naming Convention
+- **Ukrainian**: `filename.md`
+- **Romanian**: `filename-ro.md`
+- **English**: `filename-en.md`
+
+## Content Synchronization
+- **Structure**: Maintain identical structure across languages
+- **Links**: Update all language versions when adding new content
+- **Dates**: Include last update date in all versions
+- **Sources**: Reference original language sources
+
+## Quality Control
+- **Review**: Native speaker review for each language
+- **Consistency**: Check terminology consistency
+- **Completeness**: Ensure all content is translated
+- **Accuracy**: Verify legal and technical accuracy
+
+## Romanian-Specific Terms
+- **VNЖ**: Permis de ședere temporar
+- **ПМЖ**: Permis de ședere permanent
+- **Податкова**: ANAF (Agenția Națională de Administrare Fiscală)
+- **Медицина**: CNAS (Casa Națională de Asigurări de Sănătate)
+
+## Update Process
+1. Update primary language (Ukrainian)
+2. Translate to Romanian
+3. Update English version if needed
+4. Verify all versions are synchronized
+5. Update last modified dates
+
+---
+*Last updated: 2025-01-02*
+*Multilingual synchronization rules for Romania relocation project*

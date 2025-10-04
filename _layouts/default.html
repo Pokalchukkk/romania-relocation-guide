@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ua' }}" class="lang-{{ page.lang | default: 'ua' }}">
+<head>
+    {% include head.html %}
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    {% include common/gtm-body.html %}
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <div class="container-lg px-3 my-5 markdown-body">
+        {% include common/language-switcher.html %}
+        
+        <main class="card">
+            {{ content }}
+        </main>
+        
+        <footer class="mt-5 pt-3 border-top">
+            <p class="text-muted">
+                {% if page.lang == 'ua' %}
+                    <i class="fas fa-calendar-alt"></i> Останнє оновлення: {{ page.last_modified | date: "%d.%m.%Y" }}
+                {% elsif page.lang == 'en' %}
+                    <i class="fas fa-calendar-alt"></i> Last updated: {{ page.last_modified | date: "%B %d, %Y" }}
+                {% elsif page.lang == 'ru' %}
+                    <i class="fas fa-calendar-alt"></i> Последнее обновление: {{ page.last_modified | date: "%d.%m.%Y" }}
+                {% endif %}
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

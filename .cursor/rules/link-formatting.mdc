@@ -1,0 +1,55 @@
+# Link Formatting Rules
+
+## Link Structure
+- **Format**: `[Display Text](URL "Tooltip")`
+- **Consistency**: Use consistent link text across all documents
+- **Accessibility**: Include descriptive tooltips for screen readers
+- **Validation**: Verify all links are working and current
+
+## External Links
+- **Official sources**: Always link to official Romanian government websites
+- **Language**: Prefer Romanian versions of official sites when available
+- **Backup**: Include alternative links when possible
+- **Status**: Mark links as "Last checked: [date]"
+
+## Internal Links
+- **Structure**: Use relative paths for internal documents
+- **Anchors**: Link to specific sections using `#section-id`
+- **Cross-references**: Link between related documents
+- **Navigation**: Include table of contents with internal links
+
+## Romanian Government Links
+- **IGI**: https://igi.mai.gov.ro
+- **ANAF**: https://www.anaf.ro
+- **CNAS**: https://www.cnas.ro
+- **Government Portal**: https://www.gov.ro
+- **VIES**: https://ec.europa.eu/taxation_customs/vies/
+
+## Link Categories
+- **Official**: Government websites and forms
+- **Reference**: Legal documents and regulations
+- **Tools**: Online calculators and services
+- **Support**: Help and contact information
+
+## Link Maintenance
+- **Regular checks**: Verify links monthly
+- **Updates**: Update links when URLs change
+- **Archives**: Archive old links with dates
+- **Alternatives**: Provide backup links when possible
+
+## Formatting Examples
+```markdown
+[IGI - Immigration](https://igi.mai.gov.ro "Official immigration website")
+[ANAF - Tax Office](https://www.anaf.ro "Official tax administration")
+[CNAS - Health Insurance](https://www.cnas.ro "National health insurance")
+```
+
+## Link Validation
+- **Automated**: Use tools to check link validity
+- **Manual**: Regular manual verification
+- **User feedback**: Report broken links
+- **Updates**: Fix broken links immediately
+
+---
+*Last updated: 2025-01-02*
+*Link formatting and maintenance rules*

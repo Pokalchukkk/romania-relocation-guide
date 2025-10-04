@@ -1,0 +1,80 @@
+# Translation Standards
+
+## Language Priority
+1. **Ukrainian** - Primary language for all content
+2. **Romanian** - Secondary for official documents and forms
+3. **English** - Technical documentation and international references
+
+## Translation Principles
+- **Accuracy**: Maintain exact meaning across languages
+- **Context**: Preserve cultural and legal context
+- **Consistency**: Use consistent terminology throughout
+- **Clarity**: Ensure clarity in target language
+
+## Terminology Standards
+### Ukrainian → Romanian
+- **ВНЖ** → **Permis de ședere temporar**
+- **ПМЖ** → **Permis de ședere permanent**
+- **Податкова** → **Agenția Națională de Administrare Fiscală (ANAF)**
+- **Медицина** → **Casa Națională de Asigurări de Sănătate (CNAS)**
+- **Імміграція** → **Inspectoratul General pentru Imigrări (IGI)**
+
+### Ukrainian → English
+- **ВНЖ** → **Temporary Residence Permit**
+- **ПМЖ** → **Permanent Residence Permit**
+- **Податкова** → **National Tax Administration Agency (ANAF)**
+- **Медицина** → **National Health Insurance House (CNAS)**
+- **Імміграція** → **General Inspectorate for Immigration (IGI)**
+
+## Translation Process
+1. **Source review**: Understand original content completely
+2. **Terminology check**: Verify correct terms in target language
+3. **Translation**: Translate maintaining context and meaning
+4. **Review**: Native speaker review for accuracy
+5. **Validation**: Cross-check with official sources
+
+## Quality Control
+- **Native speakers**: Use native speakers for review
+- **Official sources**: Verify against official documents
+- **Consistency**: Check terminology consistency
+- **Context**: Ensure cultural appropriateness
+
+## Document Types
+### Legal Documents
+- **Accuracy**: Exact translation required
+- **Formality**: Maintain formal tone
+- **References**: Include original document references
+- **Validation**: Legal review recommended
+
+### Informational Content
+- **Clarity**: Focus on understanding
+- **Accessibility**: Use simple language
+- **Examples**: Include practical examples
+- **Updates**: Regular content updates
+
+## Technical Terms
+### Tax System
+- **ПДФО** → **Impozit pe venit** → **Income Tax**
+- **ПДВ** → **TVA** → **VAT**
+- **Соціальні внески** → **Contribuții sociale** → **Social Contributions**
+
+### Business Terms
+- **ПФО** → **PFA** → **Individual Enterprise**
+- **ТОВ** → **SRL** → **Limited Liability Company**
+- **Мікропідприємство** → **Microîntreprindere** → **Micro-enterprise**
+
+## File Naming
+- **Ukrainian**: `filename.md`
+- **Romanian**: `filename-ro.md`
+- **English**: `filename-en.md`
+
+## Update Process
+1. **Source update**: Update original language version
+2. **Translation**: Translate changes to other languages
+3. **Review**: Native speaker review
+4. **Synchronization**: Ensure all versions are current
+5. **Publication**: Update all language versions
+
+---
+*Last updated: 2025-01-02*
+*Translation standards and terminology guidelines*
