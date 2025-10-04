@@ -3,8 +3,8 @@
 # Site settings
 title: "Romania Relocation Guide"
 description: "Complete guide for relocating to Romania - immigration, taxes, and daily life"
-baseurl: "" # leave empty if deploying to root domain
-url: "https://your-username.github.io" # replace with your GitHub Pages URL
+baseurl: "/romania-relocation-guide" # GitHub Pages subdirectory
+url: "https://pokalchukkk.github.io" # your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
@@ -46,6 +46,7 @@ exclude:
 # Include files
 include:
   - _includes/common/
+  - assets/
 
 # Kramdown settings
 kramdown:
