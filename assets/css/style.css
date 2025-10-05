@@ -335,6 +335,42 @@ footer {
     border-top: 1px solid #dee2e6;
 }
 
+/* Back-to-top button */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #495057;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+    z-index: 999;
+}
+
+.back-to-top:hover {
+    background: #343a40;
+    transform: translateY(-2px);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.back-to-top svg {
+    width: 20px;
+    height: 20px;
+}
+
 footer p {
     margin: 0;
 }
