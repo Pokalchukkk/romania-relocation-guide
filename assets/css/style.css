@@ -337,10 +337,11 @@ footer {
 
 /* Back-to-top button */
 .back-to-top {
-    position: fixed;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
+    position: fixed !important;
+    right: 12px !important;
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
     width: 36px;
     height: 36px;
     border-radius: 50%;

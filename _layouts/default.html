@@ -46,9 +46,6 @@
     <script>
     (function() {
       var btn = document.getElementById('backToTop');
-      var lastKnownScrollY = 0;
-      var ticking = false;
-
       function smoothScrollToToc(event) {
         if (event) event.preventDefault();
         var toc = document.getElementById('toc');
@@ -59,6 +56,8 @@
         }
       }
 
+      // Always visible and clickable
+      btn.style.display = 'flex';
       btn.addEventListener('click', smoothScrollToToc);
     })();
     </script>
