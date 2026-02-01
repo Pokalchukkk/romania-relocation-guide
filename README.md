@@ -2,6 +2,12 @@
 
 Complete multilingual guide for relocating to Romania - immigration, taxes, and daily life.
 
+## 🌐 Live Site
+
+**Access the document online:**
+- 🇺🇦 [Ukrainian version](https://pokalchukkk.github.io/romania-relocation-guide/ua/)
+- 🇷🇺 [Russian version](https://pokalchukkk.github.io/romania-relocation-guide/ru/)
+
 ## Languages
 
 - 🇺🇦 [Ukrainian](ua/) - Основна мова
