@@ -42,6 +42,10 @@ PersonalAgent/
 - **Review**: Regular content review
 - **Feedback**: Incorporate user feedback
 - **Auto-sync**: When updating `ua/index.md`, automatically update `ru/index.md` with Russian translation
+- **Date updates**: When making a push/commit, always update the `last_modified` date in both `ua/index.md` and `ru/index.md`:
+  - Update the `last_modified` field in the front matter (YAML header)
+  - Update the date in the footer text at the end of the document
+  - Use current date in format: YYYY-MM-DD (e.g., 2026-02-01)
 
 ### Romanian Context
 - **Official sources**: IGI, ANAF, CNAS, gov.ro
